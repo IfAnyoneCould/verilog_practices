@@ -1,0 +1,42 @@
+# Verilator build output
+obj_dir/
+obj_*/
+
+# Icarus Verilog simulation binaries
+sim
+*.vvp
+
+# Waveform dumps (regenerate by rerunning the sim)
+*.vcd
+*.fst
+*.ghw
+
+# Yosys output
+synth_*.txt
+*_syn.v
+
+# FPGA build output (nextpnr / icestorm)
+*.asc
+*.bin
+*.bit
+*.svf
+
+# OpenLane runs (large: hundreds of MB per run)
+runs/
+
+# cocotb / Python
+sim_build/
+results.xml
+__pycache__/
+*.pyc
+.venv/
+
+# Nix
+result
+
+# Editors and OS
+.vscode/
+*.swp
+*~
+.DS_Store
+Thumbs.db

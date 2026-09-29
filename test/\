@@ -1,0 +1,8 @@
+{
+  "DESIGN_NAME": "test",
+  "VERILOG_FILES": "dir::test.sv",
+  "CLOCK_PORT": "clk",
+  "CLOCK_PERIOD": "10",
+  "FP_SIZING": "absolute",
+  "DIE_AREA": [0,0,100,100]
+}
