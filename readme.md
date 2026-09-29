@@ -12,3 +12,5 @@ The best way that I learn is by doing projects and implementing knowledge, not j
 
 ## Practice_1
 Simple 4 bit alu with 7 instructions. Main purpuse is to get my head wrapped around the logic, and to explore how test benches work here.
+## Practice_1
+Even simpler than practice 1, this was a counter that took in a variable, load, rst, and up flags. counts up and down based on the flags and a clock. Learning goal was to undertand working with clocks and that type of logic.
